@@ -1,0 +1,522 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6005c;
+    color: #fff;
+}
+
+nav {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.721);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu li {
+    margin: 0 20px;
+}
+
+.nav-link {
+    color: grey;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    display: block;
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+    border-radius: 4px;
+}
+
+/* Active link (highlighted link) */
+.active {
+    font-size: 24px;
+    color: #e6005c;
+}
+
+p {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+.logo h1 {
+    font-size: 2.5em;
+    font-family: 'Cursive', sans-serif;
+}
+
+.intro, .how-to-use, .team {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.intro h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: grey;
+    font-family: cursive;
+  }
+  
+.download-latest-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e6005c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.0em;
+    border-radius: 15px;
+     cursor: pointer;
+}
+
+.download-latest-btn:hover{
+    background-color: #f13581;
+}
+.how-to-use img, .team img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+
+.features-section {
+    text-align: center;
+    margin: 40px 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 0px;
+  }
+  
+  
+  .features-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .feature-cell {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .feature-cell h3 {
+    font-size: 2.0em;
+    margin-bottom: 20px;
+    color: #e6005c;
+  }
+  
+.how-to-use h2{
+    text-align: center;
+    font-size: 2.0em;
+    color: #e6005c;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team h2{
+    text-align: center;
+    font-size: 2.0em;
+    color: #e6005c
+}
+.team-member {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 60%;
+    justify-content: center;
+    /*align-items: center;*/
+    gap: 40px;
+}
+.team-member .t2{
+    font-size: 1.5em;
+    color: grey;
+    letter-spacing: 0.1em;
+}
+.t2 img {
+    border-radius: 20%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Download Page Styling */
+.download-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.download-section h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: grey;
+    font-family: cursive;
+}
+.model-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.model-card {
+    border: 1px solid #0073e6;
+    padding: 15px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.model-card:hover {
+    transform: scale(1.05);
+}
+
+.model-card h2 {
+    color: #e6005c;
+}
+.download {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e6005c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 15px;
+     cursor: pointer;
+}
+
+.download:hover{
+    cursor: pointer;
+    background-color: #f13581;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #e6005c;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Brand Section */
+  .brand {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #aaa;
+  }
+  
+  .footer-motto {
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  /* Contact Section */
+  .contact {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .contact h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .contact p {
+    margin: 5px 0;
+    font-size: 15px;
+    padding: 10px;
+  }
+  
+  /* Links Section */
+  .links {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .links h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    display: block;
+    padding: 10px;
+  }
+  
+  /* Footer Bottom Section */
+  .footer-bottom {
+    border-top: 1px solid #444;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom-links a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  /* Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+  
+  
+
+/* Modal Background */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    padding-top: 100px;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Confirm Button (disabled by default) */
+  .confirm-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Disabled Confirm Button */
+  .confirm-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  /* Close Button */
+  .close-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Terms Checkbox */
+  .terms-checkbox {
+    margin-right: 10px;
+  }
+  
+
+
+#countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.country-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.country-card:hover {
+    transform: scale(1.05);
+}
+
+.country-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#models {
+    padding: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #e6005c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f13581;
+}
+
+/* Style for the language section */
+.language {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Heading for language */
+.language h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    
+}
+
+/* Flex container for model cards */
+.language .model-cards {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+/* Style for individual model cards */
+.model-card {
+    font-size: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.model-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+}
+.modal-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.modal-content p {
+    font-size: 1rem;
+    color: #333;
+}
+.modal-content button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.features{
+    padding: 20px;
+}
+.features h2{
+    font-size: 2.0em;
+    margin-bottom: 20px;
+    color: #e6005c;
+    text-align: center;
+}
+
+.features ul li{
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-align: justify;
+} 
+
+.download-assistant{
+    padding: 20px;
+}
+.download-assistant h2{
+    font-size: 2.0em;
+    margin-bottom: 20px;
+    color: #e6005c;
+    text-align: center;
+}
+.assistant-steps{
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}

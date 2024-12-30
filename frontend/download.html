@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeSight - Download AI Models</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+<main>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="SafeSight Logo">
+            <h1>SafeSight Model Versions</h1>
+        </div>
+    </header>
+
+    <!-- Top Navigation Menu -->
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link" id="homeLink">Home</a></li>
+            <li><a href="download.html" class="nav-link" id="downloadsLink">Downloads</a></li>
+        </ul>
+    </nav>
+
+    
+    
+
+    <section class="download-section">
+        <h1 id="ip1">Welcome to Downloads page</h1>
+        <p id="ip2">Easily download the latest AI model. Select a country to view available AI models.</p>
+    </section>
+</main>
+    <section class="features">
+        <h2>Why Choose SafeSight Models?</h2>
+        <ul>
+            <li>SafeSight ensures that visually impaired individuals can independently identify and verify the authenticity of currency notes, enhancing their confidence and autonomy.</li>
+              <li>With AI-powered technology, SafeSight offers fast and accurate identification of Indian banknotes, eliminating the need for external assistance.</li>
+                <li>Equipped with features to detect counterfeit notes, SafeSight provides a secure way to handle financial transactions.</li>
+                <li>The device is compact, lightweight, and easy to carry, making it perfect for daily use without added hassle.</li>
+                <li>SafeSight provides dual feedback, both audio and haptic, ensuring a smooth and efficient user experience.</li>
+                <li>Designed to be affordable without compromising on performance, SafeSight is accessible to a wide range of users.</li>
+                <li>Built with robust materials and advanced technology, SafeSight offers long-lasting performance you can count on.</li>
+                <li>Specifically designed for the Indian market, SafeSight addresses local challenges, including unique currency features like tactile marks and regional variations.
+                </li>
+        </ul>
+    </section>
+    
+    
+
+    <!-- Country Section -->
+    <h1 style="text-align: center; color: #e6005c;">Models for your country</h1>
+    <p style="text-align: center;">Press I for India, US for America, JA for Japan, CA for Canada, or GE for Germany to view available AI models</p>
+    <section id="countries">
+        <div class="country-card" data-country="India">
+            <img src="/india.png" alt="India Flag">
+            <h2>India</h2>
+        </div>
+        <div class="country-card" data-country="USA">
+            <img src="/usa.png" alt="USA Flag">
+            <h2>USA</h2>
+        </div>
+        <div class="country-card" data-country="Japan">
+            <img src="/japan.png" alt="Japan Flag">
+            <h2>Japan</h2>
+        </div>
+        <div class="country-card" data-country="Canada">
+            <img src="/canada.png" alt="Canada Flag">
+            <h2>Canada</h2>
+        </div>
+        <div class="country-card" data-country="Germany">
+            <img src="/germany.png" alt="Germany Flag">
+            <h2>Germany</h2>
+        </div>
+    
+    </section>
+
+    <!-- Download Assistant Section -->
+    <section id="download-assistant" class="download-assistant">
+        <h2>Download Assistance</h2>
+        <ol class="assistant-steps">
+            <li><strong>Visit the Downloads Page:</strong> Open the SafeSight website on your computer and navigate to the "Downloads" section.</li>
+            <li><strong>Select Your Region:</strong> Choose your country from the available options on the page to view AI models specific to your region.</li>
+            <li><strong>Connect Your SafeSight Device:</strong> Power on your SafeSight device and connect it to your computer using a USB cable.</li>
+            <li><strong>Choose the Model:</strong> Select the desired model and click on the "Flash Model" button.</li>
+            <li><strong>Website Device Detection:</strong> Allow the website to detect your device and grant any necessary permissions in your browser.</li>
+            <li><strong>Start the Flashing Process:</strong> Confirm the selected model and click on "Start Flashing." The website will transfer the model to your device.</li>
+            <li><strong>Wait for Completion:</strong> A progress bar will display during the flashing process. Once completed, a success message will appear.</li>
+            <li><strong>Verify the Installation:</strong> Disconnect the device, power it on, and test it to ensure the newly flashed model is functioning correctly.</li>
+        </ol>
+    </section>
+
+    <!-- Models Section -->
+    <section id="models" style="display: none;">
+        <h2 id="selected-country"></h2>
+        <div id="language-models"></div>
+        <button id="back-button" class="download-latest-btn">Back to Countries</button>
+    </section>
+
+    
+    
+
+    <!-- Modal Dialog -->
+    <div id="downloadModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h4>Download AI Model</h4>
+            <p>Please read and accept the following terms before proceeding with the download.</p>
+
+            <div class="terms">
+                <p>By downloading this model, you agree to the terms and conditions.</p>
+            </div>
+
+            <button id="confirmBtn">Confirm</button>
+            <button id="cancelBtn">Cancel</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+      <!-- SafeSight Logo and Name -->
+      <div class="brand">
+        <img src="logo.png" alt="SafeSight Logo" class="footer-logo" />
+        <h1 class="footer-name">Empowering vision with safety and technology</h1>
+        
+      </div>
+  
+      <!-- Contact Section -->
+      <div class="contact">
+        <h3>Contact Us</h3>
+        <p>Phone: +91 9867345612</p>
+        <p>Phone: +91 4336782343</p>
+        <p>Email: info@safesight.com</p>
+      </div>
+  
+      <!-- Links Section -->
+      <div class="links">
+        <h3>Our Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#team">About Us</a></li>
+          <li><a href="download.html">Models</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>© 2024 SafeSight. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+    
+</body>
+</html>
